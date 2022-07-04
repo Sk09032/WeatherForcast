@@ -15,8 +15,7 @@ searchButton.addEventListener("click", (e) => {
 const getWeather = async (city) => {
   try {
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=dab3af44de7d24ae7ff86549334e45bd`,
-
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=6b206aa276afaa7808c478e85525a2e4`,
       { mode: "cors" }
     );
 
